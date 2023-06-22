@@ -135,6 +135,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 50px;
   }
   iframe, video {
     max-width: 90%;

@@ -1,11 +1,6 @@
 function showAlert() {
-    alert('¡Hola, te invito a mandarme un correo!');
+    alert('¡Hola, te invito a mandarme un correo! sosaguillermina@gmail.com');
 }
-
-let boton =document.getElementById("miBoton");
-boton.addEventListener("click", function() {
-    alert("¡Haz hecho clic en el botón!");
-});
 
 
 const form = document.getElementById ('myForm');

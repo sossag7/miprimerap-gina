@@ -3,14 +3,12 @@ function showAlert() {
 }
 
 const form = document.getElementById ('myForm');
-
 if (form) {
     form.addEventListener('submit', function(event) {
         event.preventDefault();
         validateForm();
     });
 }
-
 
 function validateEmail(email) {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,7}$/

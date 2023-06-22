@@ -163,7 +163,7 @@ a {
     display: flex ;
     flex-direction: column;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: white;
     min-height: 100px;
     justify-content: center;
     text-align: center;
@@ -174,5 +174,5 @@ a {
   }
 
   main {
-    min-height: 73vh;
+    min-height: 72vh;
   }

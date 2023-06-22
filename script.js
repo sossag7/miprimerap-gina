@@ -1,10 +1,7 @@
 function showAlert() {
     alert('¡hola, esta es una alerta desde JavaScript!');
 }
-let boton =document.getElementById("miBoton");
-boton.addEventListener("click", function() {
-    alert("¡Haz hecho clic en el botón!");
-});
+
 
 const form = document.getElementById ('myForm');
 

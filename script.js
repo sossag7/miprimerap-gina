@@ -8,10 +8,13 @@ boton.addEventListener("click", function() {
 
 const form = document.getElementById ('myForm');
 
-form.addEventListener('submit', function(event) {
-    event.preventDefault();
-    validateForm();
-});
+if (form) {
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        validateForm();
+    });
+}
+
 
 function validateEmail(email) {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,7}$/

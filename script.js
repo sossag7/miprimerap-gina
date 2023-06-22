@@ -1,5 +1,6 @@
+
 function showAlert() {
-    alert('¡hola, esta es una alerta desde JavaScript!');
+    alert('¡Hola, te invito a mandarme un correo!');
 }
 
 const form = document.getElementById ('myForm');

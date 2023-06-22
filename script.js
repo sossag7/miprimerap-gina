@@ -1,7 +1,12 @@
-
 function showAlert() {
     alert('¡Hola, te invito a mandarme un correo!');
 }
+
+let boton =document.getElementById("miBoton");
+boton.addEventListener("click", function() {
+    alert("¡Haz hecho clic en el botón!");
+});
+
 
 const form = document.getElementById ('myForm');
 if (form) {

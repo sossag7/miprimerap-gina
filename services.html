@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Mi primer wedsite</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-  <body>
+<head>
+  <title>Mi primer wedsite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <div class="container-nav">
+      <nav class="navbar" role="navigation">
+        <a href="#" class="brand">Mi página web</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="contact.html">Contáctanos</a></li>
+          <li><a href="about.html">Acerca de</a></li>
+        </ul>
+        <button class="button-menu-toggle">Menu</button>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-          <div class="container-nav">
-            <nav class="navbar" role="navigation">
-              <a href="#" class="brand">Mi página web</a>
-              <ul class="nav-links">
-                 <li><a href="index.html">Home</a></li>
-                 <li><a href="services.html">Servicios</a></li>
-                 <li><a href="contact.html">Contáctanos</a></li>
-                 <li><a href="about.html">Acerca de</a></li>
-              </ul>
-              <button class="button-menu-toggle">Menu</button>
-           </nav>
-          </div>
-     </header>
-
-     <main>
+  <main>
     <div class="container">
-        <h1>Nuestros servicios</h1>
-         <p>Descubre aquí los servicios que ofrecemos.</p>
-           <ul>
-           <li>Servicio 1</li>
-           <li>Servicio 2</li>
-           <li>Servicio 3</li>
-          </ul>
+      <h1>Nuestros servicios</h1>
+      <p>Descubre aquí los servicios que ofrecemos.</p>
+      <div class="service-container">
+        <div class="service-item">
+          <img src="niñoadicto.jpg" alt="Imagen 1">
+          <h2>Servicio 1</h2>
+          <p>Descripción del Servicio 1.</p>
+        </div>
+        <div class="service-item">
+          <img src="cyber.jpg" alt="Imagen 2">
+          <h2>Servicio 2</h2>
+          <p>Descripción del Servicio 2.</p>
+        </div>
+        <div class="service-item">
+          <img src="mobileadiction.jpg" alt="Imagen 3">
+          <h2>Servicio 3</h2>
+          <p>Descripción del Servicio 3.</p>
+        </div>
+      </div>
     </div>
   </main>
-
 
   <footer>
     <p>Información sobre el desarrollador o compañía:</p>
     <button onClick="showAlert()">¡Haz clic en mí!</button>
-</footer>
+  </footer>
 
-    <script src="script.js"></script>
- </body>
+  <script src="script.js"></script>
+</body>
 </html>
